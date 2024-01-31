@@ -1,0 +1,82 @@
+h2{
+    color: blue;
+    font-size: 42px;
+    text-align: center;
+    text-decoration: underline;
+}
+p{
+    color: blue;
+    text-align: center;
+    font-size: 22px;
+    margin: 20px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: aqua;
+}
+.navbar .logo a{
+    font-size: 32px;
+    font-weight: 600;
+    color: blue;
+    text-decoration: none;
+}
+.navbar .menu{
+    display: flex;
+    position: relative;
+}
+.navbar .menu li{
+   list-style: none;
+    margin: 0 8px;
+}
+.navbar .menu a{
+    font-size: 32px;
+    font-weight: 500;
+    color: blue;
+    padding: 6px 0;
+      text-decoration: none;
+}
+.navbar .menu a:hover {
+    color: green;
+}
+.home{
+    width:100%;
+    height: 100vh;
+    background-image: url("../Resource/My Dream Car.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "sans-serif";
+}
+.home .home-content{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .text-one{
+    font-size: 25px;
+    color: black;
+}
+.home .text-two{
+    font-size: 75px;
+    color: aqua;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .text-three{
+    font-size: 40px;
+    margin: 5px 0;
+    color: saddlebrown;
+}
+
+.home .text-four{
+    font-size: 23px;
+    margin: 5px 0;
+    color: black;
+}

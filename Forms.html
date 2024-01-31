@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <style>
+        h1{font-family: Chandas;
+            font-size: 50px;
+            text-decoration:underline;
+            padding: 10px;
+        }
+        p{font-family: "Courier 10 Pitch";
+            font-size: 30px;
+            color: cyan;
+            padding: 5px;
+        }
+        h5{font-family:Chilanka;
+            font-size:40px;
+            color: crimson;
+            text-decoration:underline ;
+        }
+        form{background-color:dimgray ;
+            width: 500px;
+            border-radius: 1px;
+            border-bottom: 1px;
+            border-left-width: 1px;
+            border-bottom-width: 1px;
+            align-items: center;
+            padding: 2px;
+        }
+        body{background-image: url("Resource/My Dream Car.jpeg");
+            margin: 20px;
+            padding: 200px;
+        }
+    </style>
+</head>
+<body >
+<form>
+    <h1>Employee Detail</h1>
+    <h5>BIO DATA</h5>
+ <div>
+    <label for="">Name</label>
+    <input type="text"> <br><br>
+     </div>
+    <div class="input-section">
+    <label for="">Mobile No.</label>
+    <input type="text"> <br><br>
+        </div>
+    <label for="">Gender</label>
+    Male:<input type="radio" name="gender" checked value="male">
+    Female:<input type="radio" name="gender"value="female"> <br><br>
+    <label for="">Hobbies</label>
+    Dancing: <input type="checkbox" name="hobby" value="dancing">
+    Singing: <input type="checkbox" name="hobby" value="singing">
+    Soccer: <input type="checkbox" name="hobby" value="soccer"> <br><br>
+    <label for="">password</label>
+    <input type="password">
+    <label for="">County</label>
+    <select name="dropdown" id="">
+        <option value="">Tanzania</option>
+        <option value="">DRC</option>
+        <option value="">Libya</option>
+        <option value="">Chad</option>
+        <option value="">Somalia</option>
+        <option value="">Ethiopia</option>
+        <option value="">Uganda</option>
+        <option value="">Kenya</option>
+    </select>
+    <br><br>
+    <div id="btn">
+    <input type="submit" value="SUBMIT">
+    <input type="reset" value="RESET">
+    </div>
+    <p>Don't have an account</p>
+</form>
+
+</body>
+</html>
